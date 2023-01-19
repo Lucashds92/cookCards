@@ -1,0 +1,30 @@
+div.sheet-left{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+div.sheet-left-img{
+    width: 100%;
+    height: 75%;
+}
+
+div.sheet-left-img img{
+    width: 100%;
+    margin-top: 60px;
+}
+
+div.sheet-left-logo{
+    height: 25%; 
+}
+
+div.sheet-right{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+div.sheet-right-item{
+    height: 25%;
+}
