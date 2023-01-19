@@ -9,6 +9,7 @@
 
 html{
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -28,6 +29,20 @@ h1{
     text-align: center;
 }
 
+
+h2, p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7rem;
+    color: var(--color6titles);
+    font-weight: normal;
+}
+
+p{
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+
 h4{
     margin: 0;
     position: absolute;
@@ -37,18 +52,21 @@ h4{
     font-size: 1.2rem;
 }
 
-a, h2 {
+a {
+    background-color: var(--color5AHover);
+    padding: 3px 15px;
+    border-radius: 15px;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
-    color: var(--color6titles);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1rem;
+    color: var(--color2White);
     transition: 0.2s linear;
-  }
+}
   
-  a:hover {
+a:hover {
     color: var(--color5AHover);
-    font-size: 2rem;
-  }
+    background-color: var(--color2White);
+}
 
 .dis-ali-jus-center{
     display: flex;
@@ -75,7 +93,7 @@ span.material-symbols-outlined{
 
 div.sheet-bar{
     width: 75%;
-    height: 3px;
+    height: 2px;
     background-color: var(--color3Bar);
     border-radius:1.5px;
 }

@@ -26,5 +26,6 @@ div.sheet-right{
 }
 
 div.sheet-right-item{
-    height: 25%;
+    height: 28%;
+    flex-direction: column;
 }
