@@ -1,10 +1,11 @@
 :root{
     --color1BG: #ebeff2;
-    --color2White: #ffffff;
+    --color2White: #eddebf;
     --color3Bar: #8b8b8b;
     --color4Shadow: #abb3b5;
-    --color5AHover: #f88a0e;
+    --color5AHover: #cd485b;
     --color6titles: #010101;
+    --color7bgtitle: #29569f;
 }
 
 html{
@@ -23,10 +24,13 @@ body {
 }
 
 h1{
-    font-family: 'Abril Fatface', cursive;
-    font-size: 2.5rem;
-    color: var(--color6titles);
+    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Lobster', cursive;
+    font-family: 'Abril Fatface', cursive;*/
+    font-size: 2rem;
+    color: var(--color1BG);
     text-align: center;
+    z-index: 2;
 }
 
 
@@ -55,7 +59,7 @@ h4{
 a {
     background-color: var(--color5AHover);
     padding: 3px 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     text-decoration: none;
     font-family: 'Abril Fatface', cursive;
     font-size: 1rem;
@@ -77,8 +81,19 @@ a:hover {
 div.sheet{
     width: 800px;
     height: 500px;
-    background-color: var(--color2White);
+    background: repeating-linear-gradient(
+    135deg,
+    #275b9b,
+    #275b9b 30px,
+    #eddebf 30px,
+    #eddebf 60px,
+    #cd485b 60px,
+    #cd485b 90px,
+    #eddebf 90px,
+    #eddebf 120px
+    );
     box-shadow: 30px 30px 60px 1px var(--color4Shadow);
+    border-radius: 40px 0 0 40px;
     position: relative;
 }
 
