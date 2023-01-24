@@ -1,28 +1,72 @@
 div.sheet-left{
-    width: 50%;
-    height: 100%;
+    width: 47.5%;
+    height: 92.5%;
     flex-direction: column;
+    justify-content: space-between;
     overflow: hidden;
+    background-color: var(--color2White);
+}
+
+div.cep{
+    width: 60%;
+    height: 15%;
+    margin-right: 110px;
+    justify-content: space-around;
+}
+
+.cepItem{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
 }
 
 div.sheet-left-img{
-    width: 100%;
-    height: 75%;
+    width: 220px;
+    height: 220px;
+    z-index: 1;
+    margin-bottom: 10px;
+    position: relative;
 }
 
 div.sheet-left-img img{
     width: 100%;
-    margin-top: 60px;
+    filter: grayscale(0.5);
+}
+
+div.sheet-left-img img.stamp1{
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    top: -50px;
+    right: -50px;
+    transform: rotate(52deg);
 }
 
 div.sheet-left-logo{
-    height: 25%; 
+    height: 14%; 
+    width: 70%;
+    margin-bottom: 25px;
+    background-color: var(--color7bgtitle);
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+div.sheet-left-logo span{
+    color: var(--color1BG);
+    font-size: 30px;
+    position: relative;
+    top: auto;
+    bottom: 10px;
+    left: auto;
+    right: auto;
+
 }
 
 div.sheet-right{
-    width: 50%;
-    height: 100%;
+    width: 47.5%;
+    height: 92.5%;
     flex-direction: column;
+    background-color: var(--color2White);
 }
 
 div.sheet-right-item{
