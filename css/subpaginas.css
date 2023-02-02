@@ -1,17 +1,34 @@
+div.sheetBG{
+    width: 95%;
+    height: 92.5%;
+    background-color: var(--color2White);
+    position: relative;
+}
+
+span.material-symbols-outlined {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+div.cep{
+    position: absolute;
+    width: 190px;
+    top: 85%;
+    left: 19px;
+}
+
 div.content{
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 
-div.content-title{
-    height: 24%;
-}
-
-h1 {
-    margin: 0;
+div.sheet-left-logo{
+    height: 16%;
+    width: 200px;
 }
 
 div.content-list{
@@ -20,6 +37,7 @@ div.content-list{
 
 ul {
     margin: 0;
+    padding: 0;
 }
 
 li{
@@ -30,5 +48,4 @@ li{
 
 li a:hover {
     color: var(--color5AHover);
-    font-size: 1.5rem;
   }

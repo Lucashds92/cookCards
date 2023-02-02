@@ -49,9 +49,10 @@ p{
 
 h4{
     margin: 0;
+    padding: 0;
     position: absolute;
-    bottom: 5px;
-    left: 10px; 
+    bottom: 55px;
+    left: 20px; 
     font-family: 'Abril Fatface', cursive;
     font-size: 1.2rem;
 }
@@ -100,15 +101,60 @@ div.sheet{
 span.material-symbols-outlined{
     position: absolute;
     font-size: 2.5rem;
-    top: 20px;
+    top: 10px;
     left: 25px; 
 }
 
+div.sheet-left-logo{
+    height: 14%; 
+    width: 70%;
+    margin-bottom: 25px;
+    background-color: var(--color7bgtitle);
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
 
+div.sheet-left-logo span{
+    color: var(--color1BG);
+    font-size: 30px;
+    position: relative;
+    top: auto;
+    bottom: 10px;
+    left: auto;
+    right: auto;
+
+}
 
 div.sheet-bar{
     width: 75%;
     height: 2px;
     background-color: var(--color3Bar);
     border-radius:1.5px;
+}
+
+div.cep{
+    width: 60%;
+    height: 15%;
+    margin-right: 110px;
+    justify-content: space-around;
+}
+
+.cepItem{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+}
+
+a.linkSpan {
+    background-color: #cd485b;
+    position: absolute;
+    padding: 0;
+    width: 50px;
+    height: 40px;
+    top: 20px;
+    left: 20px;
+}
+
+a.linkSpan:hover {
+    background-color: #eddebf;
 }
